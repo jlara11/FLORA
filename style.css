@@ -1,0 +1,109 @@
+/* Botão de ChatBot */
+#chatButton {
+    /* ... */
+    background-color: #009688;
+    color: #fff;
+   
+    /* ... */
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    /* ... */
+
+}
+
+/* Container do ChatBot */
+#chatContainer {
+    /* ... */
+    background-color: #33d17a;
+    /* ... */
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 400px; /* Ajuste a largura conforme desejado */
+    height: 50vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+/* Cabeçalho do ChatBot */
+#chatHeader {
+    /* ... */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9141ac;
+    color: #fff;
+    
+    
+}
+
+#closeButton {
+    /* ... */
+    order: 2; /* Adicionado para ajustar a ordem dos elementos */
+    margin-right: 10px;
+}
+
+
+/* Corpo do ChatBot */
+#chatBody {
+    /* ... */
+    background-color: #fff;
+    height: calc(100% - 50px);
+    /* ... */
+}
+
+/* Mensagens do ChatBot */
+.message {
+    /* ... */
+    color: #000;
+  
+    /* ... */
+}
+
+/* Mensagens do Usuário */
+.user-message {
+    /* ... */
+    background-color: #009688;
+    color: #fff;
+  
+    /* ... */
+}
+
+/* Mensagens do ChatBot */
+.bot-message {
+    /* ... */
+    background-color: #33d17a;
+    color: #fff;
+  
+    /* ... */
+}
+
+/* Campo de entrada de texto */
+#userText {
+    /* ... */
+    border: 1px solid #000;
+    height: 40px; /* Ajuste a altura conforme necessário */
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+    /* ... */
+}
+
+/* Botão Enviar */
+#sendButton {
+    /* ... */
+    background-color: #009688;
+    color: #fff;
+    padding: 5px 10px; /* Ajuste o espaçamento interno conforme necessário */
+    font-size: 16px;
+    margin-left: 10px;
+    /* ... */
+}
+#chatMessages {
+    /* ... */
+    height: calc(100% - 50px); /* Substitua o valor 50px pelo tamanho do cabeçalho */
+    /* ... */
+}
+#userInput {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
