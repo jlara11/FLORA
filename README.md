@@ -5,8 +5,8 @@ Este é um projeto de chatbot que utiliza HTML, CSS e JavaScript para criar uma 
 Objetivo
 
 O objetivo deste chatbot é servir como um assistente virtual para captação de leads e suporte aos usuários na utilização do seu site. Ele foi adaptado para atender às necessidades específicas da sua regra de negócio, fornecendo respostas relevantes e personalizadas aos usuários.
-Funcionalidades
 
+Funcionalidades
     Interface de chat interativa, onde os usuários podem enviar mensagens e receber respostas do chatbot.
     Integração com a API da OpenAI para gerar respostas inteligentes com base nas entradas do usuário.
     Capacidade de captar informações dos usuários para a geração de leads, como nome, e-mail e telefone.
